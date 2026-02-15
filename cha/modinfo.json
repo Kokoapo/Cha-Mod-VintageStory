@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "cha",
+    "name": "Cha",
+    "authors": [
+        "Kokoapo"
+    ],
+    "description": "Adds Cha(Tea) to the game.",
+    "version": "0.1.0",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}
