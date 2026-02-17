@@ -1,3 +1,9 @@
 {
-    "item-tea_seeds-tea": "Tea Seeds"
+    "item-seeds-tea": "Tea Seeds",
+
+    "block-crop-tea-1": "Tea Crop Sprout",
+    "block-crop-tea-2": "Tea Crop Seedling",
+    "block-crop-tea-3": "Tea Crop Plant",
+    "block-crop-tea-4": "Tea Crop Flowering",
+    "block-crop-tea-5": "Tea Crop Mature"
 }

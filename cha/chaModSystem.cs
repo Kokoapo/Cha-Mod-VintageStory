@@ -11,7 +11,7 @@ public class chaModSystem : ModSystem
     // Useful for registering block/entity classes on both sides
     public override void Start(ICoreAPI api)
     {
-        api.RegisterItemClass("PlantTeaSeeds", typeof(PlantTeaSeeds));
+        // api.RegisterItemClass("PlantTeaSeeds", typeof(PlantTeaSeeds));
     }
 
     public override void StartServerSide(ICoreServerAPI api)

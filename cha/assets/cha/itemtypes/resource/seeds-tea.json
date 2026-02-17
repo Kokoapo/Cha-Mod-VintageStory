@@ -1,6 +1,6 @@
 {
-	"code": "tea_seeds",
-	"class": "PlantTeaSeeds",
+	"code": "seeds",
+	"class": "ItemPlantableSeed",
 	"behaviors": [{ 
 		"name": "GroundStorable",
 		"properties": {
@@ -14,9 +14,9 @@
 	"variantgroups": [
 		{ "code": "type", "states": [ "tea" ] }
 	],
-	"shape": { "base": "item/tea_seedbag" },
+	"shape": { "base": "game:item/resource/seeds/seedbag" },
 	"textures": {
-		"seed": { "base": "item/tea_seeds" }
+		"seed": { "base": "item/resource/seeds/{type}" }
 	},
 	"attributes": {
 		"groundStorageTransform": {

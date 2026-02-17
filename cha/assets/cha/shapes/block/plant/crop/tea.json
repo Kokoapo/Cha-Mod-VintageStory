@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"tea_plant_01": "block/tea_plant_01"
+		"tea_plant_01": "block/plant/crop/tea/normal1"
 	},
 	"elements": [
 		{
