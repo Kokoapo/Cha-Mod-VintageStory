@@ -12,8 +12,8 @@
 		"reedrope": [16,16]
 	},
 	"textures": {
-		"normal": "block/cloth_normal",
-		"reedrope": "block/reedrope",
+		"normal": "block/seedbag/cloth_normal",
+		"reedrope": "block/seedbag/reedrope",
 		"seed": "item/tea_seeds"
 	},
 	"elements": [
