@@ -48,7 +48,8 @@
 	"rainPermeable": false,
 	"dropsByType": {
 		"*-5": [
-			{ "type": "item", "code": "seeds-tea", "quantity": { "avg": 1.2 }  }
+			{ "type": "item", "code": "seeds-tea", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "tea-leaves", "quantity": { "avg": 10, "var": 2 }  }
 		],
 		"*": [
 			{ "type": "item", "code": "seeds-tea", "quantity": { "avg": 0.7 }  }

@@ -16,7 +16,7 @@
 	],
 	"shape": { "base": "game:item/resource/seeds/seedbag" },
 	"textures": {
-		"seed": { "base": "item/resource/seeds/{type}" }
+		"seed": { "base": "item/seeds/{type}" }
 	},
 	"attributes": {
 		"groundStorageTransform": {

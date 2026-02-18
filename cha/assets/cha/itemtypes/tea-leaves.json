@@ -1,0 +1,19 @@
+{
+    "code": "tea-leaves",
+    "shape": { "base": "item/tea-leaves" },
+    "textures": {
+        "tea-leaves": { "base": "item/tea-leaves" }
+    },
+    "maxstacksize": 128,
+    "creativeinventory": { "general": ["*"], "items": ["*"] },
+    "guiTransform": {
+		"translation": { "x": -18, "y": -35, "z": 0 },
+		"rotation": { "x": -90, "y": 37, "z": -1 },
+		"scale": 3.3
+	},
+    "tpHandTransform": {
+		"translation": { "x": -1, "y": -0.5, "z": -1.2 },
+		"rotation": { "x": 99, "y": 176, "z": -180 },
+		"scale": 0.71
+	}
+}

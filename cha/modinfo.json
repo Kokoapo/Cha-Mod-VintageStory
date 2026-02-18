@@ -7,7 +7,7 @@
         "Kokoapo"
     ],
     "description": "Adds Cha(Tea) to the game.",
-    "version": "0.2.3",
+    "version": "0.3.1",
     "dependencies": {
         "game": "1.21.0"
     }
