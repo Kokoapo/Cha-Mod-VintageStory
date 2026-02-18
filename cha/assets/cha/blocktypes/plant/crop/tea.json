@@ -26,7 +26,7 @@
 			"*": true
 		},
 		"sitHeight": 0.55,
-		"tickGrowthProbability": 0.1,
+		"tickGrowthProbability": 0.05,
 		"handbook": {
 			"include": true
 		}
@@ -56,9 +56,9 @@
 	},
 	"cropProps": {
 		"requiredNutrient": "N",
-		"nutrientConsumption": 20,
+		"nutrientConsumption": 30,
 		"growthStages": 5,
-		"totalGrowthMonths": 1.0
+		"totalGrowthMonths": 1.5
 	},
 	"collisionbox": null,
 	"selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },

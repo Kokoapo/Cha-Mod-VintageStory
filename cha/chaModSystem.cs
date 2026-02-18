@@ -1,6 +1,7 @@
 ﻿using Vintagestory.API.Client;
 using Vintagestory.API.Server;
 using Vintagestory.API.Common;
+using Vintagestory.GameContent;
 
 namespace cha;
 
@@ -11,7 +12,7 @@ public class chaModSystem : ModSystem
     // Useful for registering block/entity classes on both sides
     public override void Start(ICoreAPI api)
     {
-        // api.RegisterItemClass("PlantTeaSeeds", typeof(PlantTeaSeeds));
+        // api.RegisterItemClass("MyItemPlantableSeed", typeof(MyItemPlantableSeed));
     }
 
     public override void StartServerSide(ICoreServerAPI api)
