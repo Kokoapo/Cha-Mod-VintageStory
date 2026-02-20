@@ -6,5 +6,9 @@
     "block-crop-tea-2": "Tea Crop Seedling",
     "block-crop-tea-3": "Tea Crop Plant",
     "block-crop-tea-4": "Tea Crop Flowering",
-    "block-crop-tea-5": "Tea Crop Mature"
+    "block-crop-tea-5": "Tea Crop Mature",
+
+    "block-teapot-clay-blue-raw": "Blue Clay Teapot",
+    "block-teapot-clay-fire-raw": "Fire Clay Teapot",
+    "block-teapot-clay-red-raw": "Red Clay Teapot"
 }

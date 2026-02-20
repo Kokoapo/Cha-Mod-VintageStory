@@ -1,0 +1,70 @@
+{
+    "code": "teapot-clay",
+    "behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup"}
+	],
+	"heldTpIdleAnimation": "holdbothhands",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"variantgroups": [
+		{ "code": "color", "states": ["blue", "fire", "red" ] },
+		{ "code": "type", "states": ["raw"] }
+	],
+	"shape": { "base": "block/clay/teapot" },
+	"textures": {
+		"all": { "base": "game:block/clay/{color}clay" }
+	},
+	"attributes": {
+		"tempGlowMode": 1,
+		"shelvable": true,
+		"onTongTransform": {
+			"translation": { "x": -0.63, "y": -0.95, "z": -0.77 },
+			"rotation": { "x": 2, "y": -2, "z": 6 }
+        }
+	},
+    "combustiblePropsByType": {
+		"teapot-clay-fire-raw": {
+			"meltingPoint": 600,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"requiresContainer": false,
+			"smeltedStack": { "type": "block",	"code": "teapot-clay-fire-fired" }
+		},
+		"teapot-clay-*-raw": {
+			"meltingPoint": 600,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"requiresContainer": false,
+			"smeltedStack": { "type": "block",	"code": "teapot-clay-blue-fired" }
+		}
+	},
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"] },
+	"replaceable": 400,
+	"resistance": 1.5,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "walk/stone"
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": -20, "z": 0 },
+		"rotation": { "x": -22.6, "y": 30, "z": 0 },
+		"scale": 2.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.1, "y": -0.5, "z": -0.4 },
+		"rotation": { "x": 50, "y": 0, "z": -60 },
+		"scale": 0.8
+	}
+}
