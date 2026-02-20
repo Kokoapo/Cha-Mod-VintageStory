@@ -1,14 +1,14 @@
 {
-    "item-seeds-tea": "Sementes de Chá",
-    "item-tea-leaves": "Folhas de Chá",
+    "item-seeds-tea": "Sementes de chá",
+    "item-tea-leaves": "Folhas de chá",
 
-    "block-crop-tea-1": "Brotinho de Chá",
-    "block-crop-tea-2": "Muda de Chá",
-    "block-crop-tea-3": "Planta de Chá",
-    "block-crop-tea-4": "Chá em Flor",
-    "block-crop-tea-5": "Chá Maduro",
+    "block-crop-tea-1": "Brotinho de chá",
+    "block-crop-tea-2": "Muda de chá",
+    "block-crop-tea-3": "Planta de chá",
+    "block-crop-tea-4": "Chá florescendo",
+    "block-crop-tea-5": "Chá maduro",
 
-    "block-teapot-clay-blue-raw": "Chaleira de Argila Azul",
-    "block-teapot-clay-fire-raw": "Chaleira de Argila de Fogo",
-    "block-teapot-clay-red-raw": "Chaleira de Argila Vermelha"
+    "block-teapot-clay-blue-raw": "Chaleira de argila azul cru",
+    "block-teapot-clay-fire-raw": "Chaleira de argila de fogo cru",
+    "block-teapot-clay-red-raw": "Chaleira de argila vermelha cru"
 }

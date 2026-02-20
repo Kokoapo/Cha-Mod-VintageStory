@@ -1,14 +1,14 @@
 {
-    "item-seeds-tea": "Tea Seeds",
-    "item-tea-leaves": "Tea Leaves",
+    "item-seeds-tea": "Tea seeds",
+    "item-tea-leaves": "Tea leaves",
 
-    "block-crop-tea-1": "Tea Crop Sprout",
-    "block-crop-tea-2": "Tea Crop Seedling",
-    "block-crop-tea-3": "Tea Crop Plant",
-    "block-crop-tea-4": "Tea Crop Flowering",
-    "block-crop-tea-5": "Tea Crop Mature",
+    "block-crop-tea-1": "Tea crop sprout",
+    "block-crop-tea-2": "Tea crop seedling",
+    "block-crop-tea-3": "Tea crop plant",
+    "block-crop-tea-4": "Tea crop flowering",
+    "block-crop-tea-5": "Tea crop mature",
 
-    "block-teapot-clay-blue-raw": "Blue Clay Teapot",
-    "block-teapot-clay-fire-raw": "Fire Clay Teapot",
-    "block-teapot-clay-red-raw": "Red Clay Teapot"
+    "block-teapot-clay-blue-raw": "Raw blue clay teapot",
+    "block-teapot-clay-fire-raw": "Raw fire clay teapot",
+    "block-teapot-clay-red-raw": "Raw red clay teapot"
 }
