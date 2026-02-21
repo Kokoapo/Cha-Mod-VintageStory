@@ -12,12 +12,13 @@
     "block-teapot-fire-raw": "Chaleira de argila de fogo cru",
     "block-teapot-red-raw": "Chaleira de argila vermelha cru",
 
-    "block-teapot-tan-fired": "Chaleira de argila bege cozida",
-    "block-teapot-orange-fired": "Chaleira de argila laranja cozida",
-    "block-teapot-red-fired": "Chaleira de argila vermelha cozida",
-    "block-teapot-brown-fired": "Chaleira de argila marrom cozida",
-    "block-teapot-cream-fired": "Chaleira de argila creme cozida",
-    "block-teapot-gray-fired": "Chaleira de argila cinza cozida",
-    "block-teapot-black-fired": "Chaleira de argila preta cozida",
-    "block-teapot-fire-fired": "Chaleira de argila de fogo cozida"
+    "block-teapot-tan-fired": "Chaleira de argila bege",
+    "block-teapot-orange-fired": "Chaleira de argila laranja",
+    "block-teapot-red-fired": "Chaleira de argila vermelha",
+    "block-teapot-brown-fired": "Chaleira de argila marrom",
+    "block-teapot-cream-fired": "Chaleira de argila creme",
+    "block-teapot-gray-fired": "Chaleira de argila cinza",
+    "block-teapot-black-fired": "Chaleira de argila preta",
+    "block-teapot-fire-fired": "Chaleira de argila de fogo",
+    "block-teapot-blue-fired": "Chaleira de argila"
 }
