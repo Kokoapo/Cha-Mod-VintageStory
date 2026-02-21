@@ -18,10 +18,9 @@
 	"attributes": {
 		"tempGlowMode": 1,
 		"shelvable": true,
-		"onTongTransform": {
-			"translation": { "x": -0.63, "y": -0.95, "z": -0.77 },
-			"rotation": { "x": 2, "y": -2, "z": 6 }
-        }
+		"handbook": {
+			"groupBy": ["teapot-*-{type}"]
+		}
 	},
 	"attributesByType":{
 		"teapot-red-raw":{
@@ -50,21 +49,21 @@
 		}
 	},
     "combustiblePropsByType": {
-		"teapot-clay-fire-raw": {
+		"teapot-fire-raw": {
 			"meltingPoint": 600,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
 			"requiresContainer": false,
-			"smeltedStack": { "type": "block",	"code": "teapot-clay-fire-fired" }
+			"smeltedStack": { "type": "block",	"code": "teapot-fire-fired" }
 		},
-		"teapot-clay-*-raw": {
+		"teapot-*-raw": {
 			"meltingPoint": 600,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
 			"requiresContainer": false,
-			"smeltedStack": { "type": "block",	"code": "teapot-clay-blue-fired" }
+			"smeltedStack": { "type": "block",	"code": "teapot-blue-fired" }
 		}
 	},
 	"doNotRenderAtLod2": true,
