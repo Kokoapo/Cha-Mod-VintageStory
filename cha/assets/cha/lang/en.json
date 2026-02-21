@@ -8,7 +8,16 @@
     "block-crop-tea-4": "Tea crop flowering",
     "block-crop-tea-5": "Tea crop mature",
 
-    "block-teapot-clay-blue-raw": "Raw blue clay teapot",
-    "block-teapot-clay-fire-raw": "Raw fire clay teapot",
-    "block-teapot-clay-red-raw": "Raw red clay teapot"
+    "block-teapot-blue-raw": "Raw blue clay teapot",
+    "block-teapot-fire-raw": "Raw fire clay teapot",
+    "block-teapot-red-raw": "Raw red clay teapot",
+
+    "block-teapot-tan-fired": "Tan clay teapot",
+    "block-teapot-orange-fired": "Orange clay teapot",
+    "block-teapot-red-fired": "Red clay teapot",
+    "block-teapot-brown-fired": "Brown clay teapot",
+    "block-teapot-cream-fired": "Cream clay teapot",
+    "block-teapot-gray-fired": "Gray clay teapot",
+    "block-teapot-black-fired": "Black clay teapot",
+    "block-teapot-fire-fired": "Fire clay teapot"
 }

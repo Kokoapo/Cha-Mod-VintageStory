@@ -13,7 +13,7 @@
 	],
     "shape": { "base": "block/clay/teapot" },
     "textures": {
-		"all": { "base": "game:block/clay/pot/{color}" }
+		"all": { "base": "game:block/clay/hardened/{color}" }
     },
     "attributes": {
 		"tempGlowMode": 1,
