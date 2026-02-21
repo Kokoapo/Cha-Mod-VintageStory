@@ -1,8 +1,9 @@
 {
-    "code": "teapot-clay",
+    "code": "teapot",
     "behaviors": [
 		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
-		{ "name": "Unplaceable" }
+		{ "name": "Unplaceable" },
+        { "name": "RightClickPickup" }
 	],
 	"heldTpIdleAnimation": "holdbothhandslarge",
 	"heldTpUseAnimation": "twohandplaceblock",
@@ -12,24 +13,25 @@
 	],
     "shape": { "base": "block/clay/teapot" },
     "textures": {
-        "transparent": { "base": "game:block/transparent" },
-		"ceramic": { "base": "game:block/clay/pot/{color}" }
+		"all": { "base": "game:block/clay/pot/{color}" }
     },
     "attributes": {
 		"tempGlowMode": 1,
 		"shelvable": true,
 		"attachmentArea": { "x1": 4, "y1": 0, "z1": 4, "x2": 11, "y2": 0, "z2": 11 },
-		"wearableAttachment": true,
-		"wearableCategoryCode": "frontrightside",
 		"inFirePitProps": {
 			"transform": {
 				"translation": { "x": 0, "y": 0.125, "z": 0 }
 			},
 			"useFirepitModel": "Wide"
-		}
+		},
+        	"onTongTransform": {
+			"translation": { "x": -0.63, "y": -0.95, "z": -0.77 },
+			"rotation": { "x": 2, "y": -2, "z": 6 }
+        }
 	},
     "attributesByType": {
-        "*-fired": {
+        "*-fired": { 
 		    "cookingContainerSlots": 2,
 		    "maxContainerSlotStackSize": 6
 		}
@@ -46,7 +48,7 @@
 	"sounds": {
 		"walk": "walk/stone"
 	},
-	"sideopaque": {
+    "sideopaque": {
 		"all": false
 	},
 	"sidesolid": {

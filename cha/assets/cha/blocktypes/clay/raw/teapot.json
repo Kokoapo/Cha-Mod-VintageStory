@@ -1,5 +1,5 @@
 {
-    "code": "teapot-clay",
+    "code": "teapot",
     "behaviors": [
 		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
 		{ "name": "Unplaceable" },
@@ -22,6 +22,32 @@
 			"translation": { "x": -0.63, "y": -0.95, "z": -0.77 },
 			"rotation": { "x": 2, "y": -2, "z": 6 }
         }
+	},
+	"attributesByType":{
+		"teapot-red-raw":{
+			"beehivekiln":{
+				"0": { "type": "block", "code": "teapot-tan-fired" },
+				"1": { "type": "block", "code": "teapot-orange-fired" },
+				"2": { "type": "block", "code": "teapot-red-fired" },
+				"3": { "type": "block", "code": "teapot-brown-fired" }
+			}
+		},
+		"teapot-blue-raw":{
+			"beehivekiln":{
+				"0": { "type": "block", "code": "teapot-cream-fired"},
+				"1": { "type": "block", "code": "teapot-gray-fired"},
+				"2": { "type": "block", "code": "teapot-black-fired"},
+				"3": { "type": "block", "code": "teapot-black-fired"}
+			}
+		},
+		"teapot-fire-raw":{
+			"beehivekiln":{
+				"0": { "type": "block", "code": "teapot-fire-fired"},
+				"1": { "type": "block", "code": "teapot-fire-fired"},
+				"2": { "type": "block", "code": "teapot-fire-fired"},
+				"3": { "type": "block", "code": "teapot-fire-fired"}
+			}
+		}
 	},
     "combustiblePropsByType": {
 		"teapot-clay-fire-raw": {
